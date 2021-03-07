@@ -11,7 +11,10 @@ class _GalleryScreenState extends State<GalleryScreen> {
   @override
   Widget build(BuildContext context) {
     return Container(
-       child: Scaffold(
+        child: Scaffold(
+      appBar: AppBar(
+        title: Text("Gallery"),
+      ),
       body: Center(
         child: Text("Gallery Page"),),
        )

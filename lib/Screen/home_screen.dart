@@ -29,6 +29,7 @@ class _HomeScreenState extends State<HomeScreen> {
       body: pages[_currentIndex],
         bottomNavigationBar: BottomNavigationBar(
           onTap: _setCurrentIndex,
+          currentIndex: _currentIndex,
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.people), label:"profile"),
             BottomNavigationBarItem(icon: Icon(Icons.photo_album), label:"gallery"),
